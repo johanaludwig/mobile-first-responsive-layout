@@ -1,0 +1,333 @@
+/* ==========================================
+    Global Layout Set-up
+============================================== */
+
+* { 
+    box-sizing: border-box;
+  }
+  
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    background: #FAFAFA;
+}
+
+header,
+footer,
+#contact {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.name {
+    font-family: 'Pacifico', cursive;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none; 
+    font-weight: bold;
+}
+
+a:hover {
+    color: #2E2EFE;
+}
+
+p {
+    font-size: 20px;
+    color: #848484;
+}
+
+h2,
+a {
+    text-transform: uppercase;
+    color:#1C1C1C;
+}
+
+h1,
+h2,
+h3 {
+    letter-spacing: 0.1em;
+    color: #424242;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none; 
+}
+
+img {
+    max-width: 100%;
+}
+
+/* ----- Header & navigation bar ------- */
+
+#main-nav {
+    margin-top: 5px;
+}
+
+#main-nav a {
+    display: block;
+    padding: 10px 15px;
+}
+
+#main-nav ul li {
+    background: #E0ECF8;
+    margin: 5px;
+}
+
+.profile-img {
+    padding: 40px 60px 0;
+}
+
+.welcome-text {
+    padding: 0 10px 30px;
+}
+
+/* ----- Portfolio gallery------- */
+
+#portfolio {
+    background: #E0ECF8;
+    padding: 20px;
+    margin: 0;
+}
+
+.container {
+    padding-top: 30px;
+}
+
+.container p {
+    padding: 0 25px;
+}
+
+/* ----- Skills section ------- */
+
+#skills {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+#skills h3 {
+    text-transform: uppercase;
+    padding: 10px 0;  
+}
+
+#skills ul li {
+    background: #E0ECF8;
+    color:#848484;
+    font-size: 20px;
+    margin: 10px;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+#skills a {
+    display: block;
+    padding: 10px 15px;
+}
+
+/* ----- Contact section ------- */
+
+#contact {
+    padding: 10px 0 30px;
+}
+
+#contact h3 {
+    text-transform: uppercase;
+    padding: 5px 0;
+}
+
+#contact p span {
+    font-weight: bold;
+    color: #424242;
+    font-size: 16px;
+}
+
+#contact aside p {
+    word-spacing: 7px;
+}
+
+/* ----- Footer ------- */
+
+footer {
+    border-top: 0.5px solid #D8D8D8;
+    height: 1px;
+}
+
+#footer-name a {
+  float: left;
+  padding-top: 10px;
+}
+
+#footer-desktop {
+    display: none;
+}
+
+#footer-mobile {
+    float: right;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+/* ==========================================
+    Media Queries
+============================================== */
+
+@media screen and (min-width: 768px) {
+
+    /* ----- Header & navigation bar ------- */
+
+    #main-nav ul li {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    .profile-img {
+        float: right;
+        padding: 50px 20px;
+    }
+
+    .welcome-text {
+        width: 60%;
+        text-align: left;
+        padding-top: 25px;
+    }
+
+    /* ----- Portfolio gallery ------- */
+
+    #portfolio {
+        clear: both;
+        overflow: hidden;
+        margin: 0;
+        padding: 20px 0;
+    }
+    
+    .container {
+        width: 44%;
+        margin-left: 2em;
+    }
+
+    .col {
+        float: left;
+    }
+
+    /* ----- Skills section ------- */
+
+    #skills {
+        margin-top: 3em;
+        margin-left: 5em;
+        margin-right: 5em;
+        border-bottom: 0.5px solid #D8D8D8;
+    }
+
+    #skills ul li {
+        display: inline-block;
+        background: none;
+        color:#848484;
+        font-size: 20px;
+        margin: 20px;
+    }
+
+    /* ----- Contact section ------- */
+
+    #contact {
+        clear: both;
+        margin-left: 5em;
+        margin-right: 5em;
+    }
+
+    #contact {
+        padding: 30px 70px 40px;
+    }
+
+    aside p {
+        line-height: 1em;
+        margin-top: 1em;
+    }
+    
+
+/* ----- Footer ------- */
+
+    footer {
+        height: 80px;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    #footer-desktop {
+        display: inline;
+        text-align: right;    
+    }
+
+    #footer-desktop ul li {
+        display: inline-block;
+        padding-left: 15px;
+    }
+
+    #footer-desktop ul {
+        margin: auto;
+        padding-top: 10px;
+    }
+
+    #footer-mobile {
+        display: none;
+        }
+    }
+
+@media screen and (min-width: 1024px) {
+
+/* ----- Header & navigation bar ------- */
+
+    body {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+    .name {
+        float: left;
+    }
+    
+    #main-nav nav {
+        float: right;
+    }
+
+    #primary-section {
+        clear: both;
+    }
+
+    .profile-img {
+        width: 50%;
+    }
+
+    .welcome-text {
+        width: 50%;
+        padding: 25px;
+    }
+
+    img {
+        width: 80%;
+        margin: 0 auto;
+        padding-left: 10px;
+    }
+
+/* ----- Portfolio gallery ------- */
+
+    #portfolio {
+        margin: 0;
+        padding: 20px 0;
+    }
+
+    .container {
+        width: 30%;
+        margin-left: 1.7em;
+    }
+
+/* ----- float clearfix ------- */
+    .clearfix::after {
+        content: " ";
+        display: table;
+        clear: both;
+    }
+}
