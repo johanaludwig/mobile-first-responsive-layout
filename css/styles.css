@@ -90,14 +90,16 @@ img {
 #portfolio {
     background: #E0ECF8;
     padding: 20px;
+    margin: auto;
+}
+
+.col{
+    width: 100%;
+    padding: 30px 0;
     margin: 0;
 }
 
-.container {
-    padding-top: 30px;
-}
-
-.container p {
+.col p {
     padding: 0 25px;
 }
 
@@ -200,17 +202,12 @@ footer {
     #portfolio {
         clear: both;
         overflow: hidden;
-        margin: 0;
-        padding: 20px 0;
     }
     
-    .container {
-        width: 44%;
-        margin-left: 2em;
-    }
-
     .col {
+        width: 50%;
         float: left;
+        padding: 10px 10px 50px 10px;
     }
 
     /* ----- Skills section ------- */
@@ -307,21 +304,19 @@ footer {
     }
 
     img {
-        width: 80%;
-        margin: 0 auto;
-        padding-left: 10px;
+        margin: auto;
     }
 
 /* ----- Portfolio gallery ------- */
 
     #portfolio {
-        margin: 0;
-        padding: 20px 0;
+        margin: auto;
     }
 
-    .container {
-        width: 30%;
-        margin-left: 1.7em;
+    .col{
+        width: 33%;
+        float: left;
+        padding: 10px 10px 50px 10px;
     }
 
 /* ----- float clearfix ------- */
