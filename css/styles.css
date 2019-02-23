@@ -90,7 +90,7 @@ img {
 #portfolio {
     background: #E0ECF8;
     padding: 20px;
-    margin: 0;
+    margin: auto;
 }
 
 .container {
@@ -200,8 +200,7 @@ footer {
     #portfolio {
         clear: both;
         overflow: hidden;
-        margin: 0;
-        padding: 20px 0;
+        margin: auto;
     }
     
     .container {
@@ -307,16 +306,13 @@ footer {
     }
 
     img {
-        width: 80%;
-        margin: 0 auto;
-        padding-left: 10px;
+        margin: auto;
     }
 
 /* ----- Portfolio gallery ------- */
 
     #portfolio {
-        margin: 0;
-        padding: 20px 0;
+        margin: auto;
     }
 
     .container {
