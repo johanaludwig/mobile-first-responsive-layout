@@ -221,10 +221,11 @@ footer {
 
     #skills ul li {
         display: inline-block;
-        background: none;
+        background: #E0ECF8;
         color:#848484;
-        font-size: 20px;
+        font-size: 15px;
         margin: 20px;
+        padding: 15px;
     }
 
     /* ----- Contact section ------- */
@@ -317,6 +318,10 @@ footer {
         width: 33%;
         float: left;
         padding: 10px 10px 50px 10px;
+    }
+
+    #skills ul li {
+        font-size: 20px;
     }
 
 /* ----- float clearfix ------- */
